@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+  <title>Online Store</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    /* Float four columns side by side */
+    .column {
+      float: left;
+      width: 25%;
+      padding: 0 50px;
+    }
+
+    /* Remove extra left and right margins, due to padding */
+    .row {
+      margin: 0 -5px;
+    }
+
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+
+    /* Responsive columns */
+    @media screen and (max-width: 600px) {
+      .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+
+    /* Style the counter cards */
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      padding: 2%;
+      text-align: center;
+      background-color: rgb(255, 255, 116);
+
+    }
+
+    .parallax {
+      background-image: url("image.jpg");
+
+      min-height: 500px;
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: auto;
+      width: auto;
+
+    }
+
+    .fa:hover {
+      opacity: 0.9;
+    }
+
+    .fa-linkedin {
+      background: #007bb5;
+      color: white;
+    }
+
+    .fa-pinterest {
+      background: #cb2027;
+      color: white;
+    }
+
+    .fa-instagram {
+      background: #bc2a8d;
+      color: white;
+    }
+
+    .fa {
+      padding: 20px;
+      font-size: 40px;
+      width: 80px;
+      text-decoration: none;
+      margin: 5px 80px;
+    }
+
+    h1 {
+      color: green;
+    }
+
+    .button {
+      background-color: #fc4918;
+      color: white;
+      padding: 14px 25px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+    }
+
+    .button:hover,
+    .button:active {
+      background-color: red;
+    }
+  </style>
+
+</head>
+
+<body>
+  <center>
+    <h1 style="font-size: 1.5cm; color: #000000;background-color: rgb(215, 255, 205); width: 35cm;">AUUSI</h1>
+  </center>
+  <div class="parallax"><br>
+
+    <marquee direction="right" behavior="alternate"
+      style="border:rgb(0, 0, 0) 2px SOLID; color: rgb(0, 0, 0); background-color: rgb(255, 255, 116) ; font-size: 0.7cm;">
+      Welcome to the Store, Lovelies!
+    </marquee>
+    <br><br><br>
+
+    <div class="row">
+      <div class="column">
+        <div class="card">
+          <img src="foundation.jpg" alt="Foundations" style="width:100% ; height:7cm">
+          <b>
+            <p style="font-size: 0.7cm;">SUGAR </p>
+          </b>
+          <p style="font-size: 0.5cm;">Foundation Stick - 47 Borgia</p>
+          
+          <b>
+            <p style="font-size: 0.7cm;"><strike>₹999.00</strike> ₹899.00 </p>
+          </b>
+          <div class="button">
+
+            <a href="review1.html" target="_blank" style="color: white">Click here!</a>
+
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="toner.jpg" alt="Toner" style="width:100% ; height:7cm">
+          <b>
+            <p style="font-size: 0.7cm;">Minimalist </p>
+          </b>
+          <p style="font-size: 0.5cm;">Alcohol Free Toner, 150 ml</p>
+          <b>
+            <p style="font-size: 0.7cm;"><strike> ₹549.00</strike> ₹399.00 </p>
+          </b>
+          <div class="button">
+            <a href="review2.html" target="_blank" style="color: white">Click here!</a>
+            
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="facewash.jpg" alt="facewash" style="width:100% ; height:7cm">
+          <b>
+            <p style="font-size: 0.7cm;">Neutrogena </p>
+          </b>
+          <p style="font-size: 0.5cm;">Facewash for oily skin, 175ml</p>
+          <b>
+            <p style="font-size: 0.7cm;"><strike> ₹349.00</strike> ₹249.00 </p>
+          </b>
+          <div class="button">
+            <a href="review3.html" target="_blank" style="color: white">Click here!</a>
+          </div>
+          <br>
+        </div>
+      </div>
+
+      <div class="column">
+        <div class="card">
+          <img src="concealer.jpg" alt="facewah" style="width:100% ; height:7cm">
+          <b>
+            <p style="font-size: 0.7cm;">RENEE </p>
+          </b>
+          <p style="font-size: 0.5cm;">Liquid Concealer - Vanilla, 5ml</p>
+          <b>
+            <p style="font-size: 0.7cm;"><strike> ₹749.00</strike> ₹699.00 </p>
+          </b>
+          <div class="button">
+            <a href="review4.html" target="_blank" style="color: white;">Click here!</a>
+          </div>
+          <br>
+        </div>
+      </div>
+
+    </div>
+ 
+    <div style="padding-top: 2cm ;padding-right: 5cm; padding-left: 5cm;" <center>
+      <h1
+        style="font-size: 1.5cm;  background-color: rgb(215, 255, 205); background-origin: padding-box; margin-left: 2cm; text-align: center; margin-right: 2cm;">
+        Contact us</h1>
+      <center><a href="#" class="fa fa-linkedin"></a>
+        <a href="#" class="fa fa-pinterest"></a>
+        <a href="#" class="fa fa-instagram"></a>
+      </center>
+      </center>
+    </div>
+  </div>
+
+</body>
+
+</html>
